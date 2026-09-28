@@ -1,0 +1,194 @@
+{
+  "financial_years": {
+    "2023-24": {
+      "assessment_year": "2024-25",
+      "effective_from": "2023-04-01",
+      "effective_to": "2024-03-31",
+      "old_regime": {
+        "standard_deduction": 50000,
+        "slabs": [
+          {"min": 0, "max": 250000, "rate": 0.0},
+          {"min": 250000, "max": 500000, "rate": 0.05},
+          {"min": 500000, "max": 1000000, "rate": 0.20},
+          {"min": 1000000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 500000,
+          "max_rebate": 12500
+        },
+        "max_deductions": {
+          "sec_80c": 150000,
+          "sec_80d_self": 25000,
+          "sec_80d_parents": 50000,
+          "sec_80ccd_1b_nps": 50000,
+          "sec_24b_home_loan_interest": 200000,
+          "sec_80tta_savings_interest": 10000,
+          "sec_80ttb_senior_interest": 50000
+        }
+      },
+      "new_regime": {
+        "standard_deduction": 50000,
+        "slabs": [
+          {"min": 0, "max": 300000, "rate": 0.0},
+          {"min": 300000, "max": 600000, "rate": 0.05},
+          {"min": 600000, "max": 900000, "rate": 0.10},
+          {"min": 900000, "max": 1200000, "rate": 0.15},
+          {"min": 1200000, "max": 1500000, "rate": 0.20},
+          {"min": 1500000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 700000,
+          "max_rebate": 25000
+        },
+        "max_deductions": {
+          "standard_deduction": 50000,
+          "sec_80ccd_2_employer_nps_cap_percent": 0.10
+        }
+      }
+    },
+    "2024-25": {
+      "assessment_year": "2025-26",
+      "effective_from": "2024-04-01",
+      "effective_to": "2025-03-31",
+      "old_regime": {
+        "standard_deduction": 50000,
+        "slabs": [
+          {"min": 0, "max": 250000, "rate": 0.0},
+          {"min": 250000, "max": 500000, "rate": 0.05},
+          {"min": 500000, "max": 1000000, "rate": 0.20},
+          {"min": 1000000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 500000,
+          "max_rebate": 12500
+        },
+        "max_deductions": {
+          "sec_80c": 150000,
+          "sec_80d_self": 25000,
+          "sec_80d_parents": 50000,
+          "sec_80ccd_1b_nps": 50000,
+          "sec_24b_home_loan_interest": 200000,
+          "sec_80tta_savings_interest": 10000,
+          "sec_80ttb_senior_interest": 50000
+        }
+      },
+      "new_regime": {
+        "standard_deduction": 75000,
+        "slabs": [
+          {"min": 0, "max": 300000, "rate": 0.0},
+          {"min": 300000, "max": 700000, "rate": 0.05},
+          {"min": 700000, "max": 1000000, "rate": 0.10},
+          {"min": 1000000, "max": 1200000, "rate": 0.15},
+          {"min": 1200000, "max": 1500000, "rate": 0.20},
+          {"min": 1500000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 700000,
+          "max_rebate": 25000
+        },
+        "max_deductions": {
+          "standard_deduction": 75000,
+          "sec_80ccd_2_employer_nps_cap_percent": 0.14
+        }
+      }
+    },
+    "2025-26": {
+      "assessment_year": "2026-27",
+      "effective_from": "2025-04-01",
+      "effective_to": "2026-03-31",
+      "old_regime": {
+        "standard_deduction": 50000,
+        "slabs": [
+          {"min": 0, "max": 250000, "rate": 0.0},
+          {"min": 250000, "max": 500000, "rate": 0.05},
+          {"min": 500000, "max": 1000000, "rate": 0.20},
+          {"min": 1000000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 500000,
+          "max_rebate": 12500
+        },
+        "max_deductions": {
+          "sec_80c": 150000,
+          "sec_80d_self": 25000,
+          "sec_80d_parents": 50000,
+          "sec_80ccd_1b_nps": 50000,
+          "sec_24b_home_loan_interest": 200000
+        }
+      },
+      "new_regime": {
+        "standard_deduction": 75000,
+        "slabs": [
+          {"min": 0, "max": 400000, "rate": 0.0},
+          {"min": 400000, "max": 800000, "rate": 0.05},
+          {"min": 800000, "max": 1200000, "rate": 0.10},
+          {"min": 1200000, "max": 1600000, "rate": 0.15},
+          {"min": 1600000, "max": 2000000, "rate": 0.20},
+          {"min": 2000000, "max": 2400000, "rate": 0.25},
+          {"min": 2400000, "max": null, "rate": 0.30}
+        ],
+        "rebate_87a": {
+          "max_taxable_income": 1200000,
+          "max_rebate": 60000
+        },
+        "max_deductions": {
+          "standard_deduction": 75000
+        }
+      }
+    }
+  },
+  "cess_rate": 0.04,
+  "surcharge_slabs": [
+    {"min": 0, "max": 5000000, "rate": 0.0},
+    {"min": 5000000, "max": 10000000, "rate": 0.10},
+    {"min": 10000000, "max": 20000000, "rate": 0.15},
+    {"min": 20000000, "max": 50000000, "rate": 0.25},
+    {"min": 50000000, "max": null, "rate_old": 0.37, "rate_new": 0.25}
+  ],
+  "capital_gains_rules": {
+    "2023-24": {
+      "equity": {
+        "stcg_rate": 0.15,
+        "ltcg_rate": 0.10,
+        "ltcg_exemption_threshold": 100000
+      },
+      "real_estate": {
+        "stcg_holding_months": 24,
+        "ltcg_rate": 0.20,
+        "indexation_allowed": true
+      },
+      "debt_funds": {
+        "stcg_rate": "slab_rate",
+        "ltcg_rate": "slab_rate"
+      }
+    },
+    "2024-25": {
+      "equity": {
+        "stcg_rate": 0.20,
+        "ltcg_rate": 0.125,
+        "ltcg_exemption_threshold": 125000
+      },
+      "real_estate": {
+        "stcg_holding_months": 24,
+        "ltcg_rate": 0.125,
+        "indexation_allowed": false
+      },
+      "gold": {
+        "stcg_holding_months": 24,
+        "ltcg_rate": 0.125
+      }
+    },
+    "2025-26": {
+      "equity": {
+        "stcg_rate": 0.20,
+        "ltcg_rate": 0.125,
+        "ltcg_exemption_threshold": 125000
+      },
+      "real_estate": {
+        "stcg_holding_months": 24,
+        "ltcg_rate": 0.125,
+        "indexation_allowed": false
+      }
+    }
+  }
+}

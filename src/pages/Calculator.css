@@ -1,0 +1,20 @@
+.calc-wrapper { min-height: 100vh; background: var(--bg-primary); }
+
+.calc-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 32px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+.fy-badge {
+  background: var(--saffron-dim);
+  border: 1px solid var(--border-accent);
+  color: var(--saffron);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}

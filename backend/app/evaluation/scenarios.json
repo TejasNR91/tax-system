@@ -1,0 +1,73 @@
+[
+  {
+    "id": "scenario_01",
+    "description": "Salaried ₹7.75 Lakh in FY 2024-25 with no deductions",
+    "financial_year": "2024-25",
+    "inputs": {
+      "salary": 775000,
+      "sec_80c": 0,
+      "sec_80d_self": 0
+    },
+    "expected_old_taxable": 725000,
+    "expected_new_taxable": 700000,
+    "expected_new_tax": 0.0,
+    "expected_recommended_regime": "new",
+    "relevant_sections": ["Section 115BAC", "Section 87A"]
+  },
+  {
+    "id": "scenario_02",
+    "description": "Salaried ₹12 Lakh in FY 2024-25 with full 80C, 80D, 24b",
+    "financial_year": "2024-25",
+    "inputs": {
+      "salary": 1200000,
+      "sec_80c": 150000,
+      "sec_80d_self": 25000,
+      "sec_24b": 200000
+    },
+    "expected_old_taxable": 775000,
+    "expected_new_taxable": 1125000,
+    "expected_recommended_regime": "old",
+    "relevant_sections": ["Section 80C", "Section 80D", "Section 24(b)"]
+  },
+  {
+    "id": "scenario_03",
+    "description": "Salaried ₹15 Lakh in FY 2024-25 with 80C ₹1.5L and NPS ₹50k",
+    "financial_year": "2024-25",
+    "inputs": {
+      "salary": 1500000,
+      "sec_80c": 150000,
+      "sec_80ccd_1b": 50000
+    },
+    "expected_old_taxable": 1250000,
+    "expected_new_taxable": 1425000,
+    "expected_recommended_regime": "new",
+    "relevant_sections": ["Section 115BAC", "Section 80CCD(1B)"]
+  },
+  {
+    "id": "scenario_04",
+    "description": "High Net Worth Individual ₹60 Lakh salary in FY 2024-25 (Surcharge tier)",
+    "financial_year": "2024-25",
+    "inputs": {
+      "salary": 6000000,
+      "sec_80c": 150000
+    },
+    "expected_old_taxable": 5800000,
+    "expected_new_taxable": 5925000,
+    "expected_recommended_regime": "new",
+    "relevant_sections": ["Section 115BAC", "Surcharge Slabs"]
+  },
+  {
+    "id": "scenario_05",
+    "description": "Equity STCG ₹5 Lakh in FY 2024-25 (Post July 2024 20% rate)",
+    "financial_year": "2024-25",
+    "capital_gains": {
+      "asset_type": "equity",
+      "sale_price": 800000,
+      "purchase_price": 300000,
+      "purchase_date": "2024-01-01",
+      "sale_date": "2024-09-01"
+    },
+    "expected_stcg_tax": 100000.0,
+    "relevant_sections": ["Section 111A"]
+  }
+]

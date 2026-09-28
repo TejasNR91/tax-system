@@ -1,0 +1,41 @@
+# ==========================================
+# TaxSaathi AI — Python Backend Requirements
+# ==========================================
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework & ASGI Server ──────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Data Validation & Serialisation ─────────────────────────
+pydantic==2.9.2
+pydantic[email]==2.9.2
+
+# ── Database ─────────────────────────────────────────────────
+# SQLite is part of Python stdlib — no extra package needed.
+
+# ── Security & Cryptography ──────────────────────────────────
+bcrypt==4.2.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── Email Delivery (OTP / SMTP) ───────────────────────────────
+email-validator==2.2.0
+
+# ── Environment & Configuration ──────────────────────────────
+python-dotenv==1.0.1
+
+# ── AI / LLM Providers ───────────────────────────────────────
+google-generativeai==0.8.3
+openai==1.51.0
+
+# ── HTTP Client (used in news router / external calls) ───────
+httpx==0.27.2
+requests==2.32.3
+
+# ── Testing ──────────────────────────────────────────────────
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# ── Utilities ────────────────────────────────────────────────
+python-multipart==0.0.12

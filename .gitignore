@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+*.egg
+.pytest_cache/
+*.pyc
+
+# Environment & Secrets
+.env
+*.env.local
+
+# Database (local SQLite — do not push)
+backend/app/db/tax_system.db
+
+# Node / Frontend
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
